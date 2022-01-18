@@ -95,4 +95,4 @@ class cartaocredito:
         if len(valor) == 4 and valor.isnumeric():
             self._senha = valor
         else:
-            print('Senha inválida')
+            print('Senha inválida, favor corrigir')
